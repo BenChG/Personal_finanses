@@ -36,8 +36,6 @@ body
 }
 
 
-
-
 .tile
 {
 	text-align: center;
@@ -53,7 +51,6 @@ a.link
 {
 	color: #ffffff;
 	text-decoration: none;
-	display: block;
 	font-size: 20px;
 }
 
@@ -62,17 +59,28 @@ a.link:hover
 	color: #C0C0C0;
 }
 
-.rights
+#email
+{
+	    margin-top: 10px;
+		background-color: #1E90FF;
+    	height: 20px;
+		font-size: 10px;
+		line-height: 15px;
+		border: 2px solid #C0C0C0;
+	    border-radius: 5px;
+		padding: 2px;
+}
+
+
+#rights
 {
 	    margin-top: 10px;
 		background-color: #1E90FF;
     	height: 30px;
 		font-size: 10px;
-		text-align: center;
-		vertical-align: middle;
 		line-height: 15px;
 		border: 2px solid #C0C0C0;
 	    border-radius: 5px;
-		width: 500px;
+		padding: 2px;
 }
 
