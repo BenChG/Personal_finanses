@@ -55,7 +55,7 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-mail:before { content: '\e800';font-size:20px; margin-top:10px; } /* '' */
+.icon-mail:before { content: '\e800';font-size:15px; } /* '' */
 .icon-login-1:before { content: '\e801';font-size:76px; margin-top:20px; } /* '' */
 .icon-logout-1:before { content: '\e802';font-size:76px; margin-top:20px; } /* '' */
 .icon-edit-1:before { content: '\e803';font-size:76px; margin-top:20px; } /* '' */
