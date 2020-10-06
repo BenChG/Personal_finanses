@@ -36,16 +36,29 @@ body
 }
 
 
-.tile
+.tile_left
 {
+	float: left;
 	text-align: center;
-	display: inline-block;
 	width: 242px;
-	height: 150px;
+	height: 166px;
 	background-color: #1E90FF;
 	border:  2px solid #C0C0C0;
 	border-radius: 5px;
 }
+
+.tile_right
+{
+	float: left;
+	margin-left:8px;
+	text-align: center;
+	width: 242px;
+	height: 166px;
+	background-color: #1E90FF;
+	border:  2px solid #C0C0C0;
+	border-radius: 5px;
+}
+
 
 a.link
 {
@@ -84,19 +97,31 @@ a.link:hover
 		padding: 2px;
 }
 
+.left
+{
+	float: left;
+	width: 246px;
+}
+
+.right
+{
+	float: left;
+	margin-left: 8px;
+	width: 246px;
+}
+
 input[type=text],
 input[type=password]
 {
-	width: 300px;
+	width: 242px;
+	height: 46px;
 	background-color: #ffffff;
-	color: #666;
-	border: 2px solid #ddd;
-	border-radious: 5px;
+	border: 2px solid #C0C0C0;
+	border-radius: 5px;
 	font-size: 20px;
-	padding: 10px;
-	box-sizing: border-box;
-	outline: none;
-	margin-top: 10px;
+	color: #666;
+	margin-bottom: 10px;
+	padding: 0px;
 }
 
 input[type=text]:focus,
@@ -112,18 +137,14 @@ input[type=password]:focus
 
 input[type=submit]
 {
-	width: 300px;
+	width: 246px;
+	height: 50px;
 	background-color: #1E90FF;
+	border-radius: 5px;
+	border: 2px solid #C0C0C0;
 	font-size: 20px;
 	color: white;
-	padding: 15px 10px;
-	margin-top: 10px;
-	border: none;
-	border-radious: 5px;
-	cursor: pointer;
-	letter-spacing: 2px;
-	outline: none;
-	margin-top: 20px;
+	padding: 0px;
 }
 
 input[type=submit]:focus
@@ -131,5 +152,14 @@ input[type=submit]:focus
 	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
 	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
 	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+.home
+{
+	width: 242px;
+	height: 166px;
+	background-color: #1E90FF;
+	border:  2px solid #C0C0C0;
+	border-radius: 5px;
 }
 
