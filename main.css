@@ -8,19 +8,12 @@ body
 
 #container
 {
-	width: 1000px;
+	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 150px;
 	text-align: center;
-}
-
-.rectangle
-{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
+}	
 
 .header
 {
@@ -40,26 +33,22 @@ body
 .tile_left
 {
 	float: left;
-	text-align: center;
-	width: 242px;
-	height: 166px;
-	background-color: #1E90FF;
-	border:  2px solid #C0C0C0;
-	border-radius: 5px;
 }
 
 .tile_right
 {
 	float: left;
 	margin-left:8px;
-	text-align: center;
+}
+
+.tile_icon
+{	
 	width: 242px;
 	height: 166px;
 	background-color: #1E90FF;
 	border:  2px solid #C0C0C0;
 	border-radius: 5px;
 }
-
 
 a.link
 {
@@ -73,47 +62,34 @@ a.link:hover
 	color: #C0C0C0;
 }
 
-#email
+
+.long_tile
 {
 	    margin-top: 10px;
 		background-color: #1E90FF;
-    	height: 20px;
 		font-size: 10px;
 		line-height: 15px;
 		border: 2px solid #C0C0C0;
 	    border-radius: 5px;
 		padding: 2px;
+}
+
+#email
+{
+	height: 20px;
 }
 
 
 #rights
 {
-	    margin-top: 10px;
-		background-color: #1E90FF;
     	height: 30px;
-		font-size: 10px;
-		line-height: 15px;
-		border: 2px solid #C0C0C0;
-	    border-radius: 5px;
-		padding: 2px;
 }
 
-.left
-{
-	float: left;
-	width: 246px;
-}
-
-.right
-{
-	float: left;
-	margin-left: 8px;
-	width: 246px;
-}
 
 input[type=text],
 input[type=password]
 {
+	text-align: center;
 	width: 242px;
 	height: 46px;
 	background-color: #ECF0F1;
@@ -123,7 +99,6 @@ input[type=password]
 	color: #013EB0;
 	margin-bottom: 10px;
 	padding: 0px;
-	text-align: center;
 }
 
 input[type=text]:focus,
@@ -139,6 +114,7 @@ input[type=password]:focus
 
 input[type=submit]
 {
+	text-align: center;
 	width: 246px;
 	height: 50px;
 	background-color: #1E90FF;
@@ -156,13 +132,3 @@ input[type=submit]:focus
 	-moz-box-shadow: 0px 0px 10px 5px rgba(204,204,204,0.9);
 	box-shadow: 0px 0px 10px 5px rgba(204,204,204,0.9);
 }
-
-.home
-{
-	width: 242px;
-	height: 166px;
-	background-color: #1E90FF;
-	border:  2px solid #C0C0C0;
-	border-radius: 5px;
-}
-
