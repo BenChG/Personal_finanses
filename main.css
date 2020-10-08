@@ -62,30 +62,6 @@ a.link:hover
 	color: #C0C0C0;
 }
 
-
-.long_tile
-{
-	    margin-top: 10px;
-		background-color: #1E90FF;
-		font-size: 10px;
-		line-height: 15px;
-		border: 2px solid #C0C0C0;
-	    border-radius: 5px;
-		padding: 2px;
-}
-
-#email
-{
-	height: 20px;
-}
-
-
-#rights
-{
-    	height: 30px;
-}
-
-
 input[type=text],
 input[type=password]
 {
@@ -117,7 +93,7 @@ input[type=submit]
 	text-align: center;
 	width: 246px;
 	height: 50px;
-	background-color: #1E90FF;
+	background-color: #2ECC71 ;
 	border-radius: 5px;
 	border: 2px solid #C0C0C0;
 	font-size: 20px;
@@ -131,4 +107,35 @@ input[type=submit]:focus
 	-webkit-box-shadow: 0px 0px 10px 5px rgba(204,204,204,0.9);
 	-moz-box-shadow: 0px 0px 10px 5px rgba(204,204,204,0.9);
 	box-shadow: 0px 0px 10px 5px rgba(204,204,204,0.9);
+}
+
+.long_tile
+{
+	    margin-top: 10px;
+		background-color: #1E90FF;
+		font-size: 10px;
+		line-height: 15px;
+		border: 2px solid #C0C0C0;
+	    border-radius: 5px;
+		padding: 2px;
+}
+
+#additional
+{
+	font-size: 15px;
+	height: 20px;
+	line-height: 20px;
+	cursor: default;
+}
+
+#email
+{
+	height: 20px;
+	cursor: default;
+}
+
+#rights
+{
+    	height: 30px;
+		cursor: default;
 }
