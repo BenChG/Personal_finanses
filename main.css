@@ -20,7 +20,7 @@ body
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 125px;
+	margin-top: 150x;
 	text-align: center;
 }
 
@@ -90,7 +90,7 @@ body
 {
 	float: left;
 	margin-left: 6px;
-	margin-bottom: 6px;
+	margin-bottom: 10px;
 }
 
 h1
@@ -186,7 +186,7 @@ input[type=password]:focus
 input[type=submit]
 {
 	text-align: center;
-	width: 240px;
+	width: 245px;
 	height: 50px;
 	background-color: #1F618D;
 	border-radius: 5px;
@@ -221,6 +221,20 @@ input[type=submit]:focus
 	height: 20px;
 	line-height: 20px;
 	cursor: default;
+}
+
+.back_to_main
+{
+	margin-top: 10px;
+	text-align: center;
+	width: 237px;
+	height: 40px;
+	background-color: #566573;
+	border:  5px solid #C0C0C0;
+	border-radius: 5px;
+	font-size: 15px;
+	line-height: 40px;
+	cursor: pointer;
 }
 
 #email
