@@ -124,7 +124,7 @@ h1
 	line-height: 46px;
 	width: 242px;
 	height: 46px;
-	background-color: #1E90FF;
+	background-color: #008080;
 	border:  2px solid #C0C0C0;
 	border-radius: 5px;	
 	margin-top: 10px;
@@ -255,7 +255,7 @@ input[type=submit]:focus
 	height: 40px;
 	background-color: #566573;
 	border:  5px solid #C0C0C0;
-	border-radius: 5px;
+	border-radius: 10px;
 	font-size: 15px;
 	line-height: 40px;
 	cursor: pointer;
