@@ -65,3 +65,4 @@
 .icon-list-add:before { content: '\e806'; font-size:36px; margin-top:10px } /* '' */
 .icon-balance-scale:before { content: '\f24e'; font-size:36px; margin-top:10px } /* '' */
 .icon-undo:before { content: '\e807'; } /* '' */
+.icon-undo2:before { content: '\e807'; font-size: 30px; margin-top:10px;} /* '' */

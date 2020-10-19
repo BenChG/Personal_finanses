@@ -23,42 +23,59 @@
 
 <body>
 
-			<div id="container">
+			<div id="container"style="margin-top:120px;">
 			
 					<div class="header">
 							Personal Finances
 					</div>	
 				
-					<div class="tile_left">
+					<div class="transaction" style="background-color: #33CC33;"> 
+							Add new income.
+					</div>
+					
+					<div class="long_tile">	
+							<div id="additional"> Fill in all below information </div>	
+					</div>		
+					
+					<div class="tile_left" style="margin-bottom: 0px;">
 							<form>	
-									<input type="text" placeholder="current password" onfocus="this.placeholder=''" onblur="this.placeholder='current password'">
+									<input type="text" placeholder="Income name">
 									</br>
-									<input type="text" placeholder="new password" onfocus="this.placeholder=''" onblur="this.placeholder='new password'">
+									<input type="text" placeholder="Income date">
 									</br>
-									<input type="text" placeholder="repeat new password" onfocus="this.placeholder=''" onblur="this.placeholder='repeat new password'">
-									</br>
-									<input type="submit" value="Change password">
+									<input type="text" placeholder="Income value">
 							</form>
 					</div>
-						
-					<div class="tile_right">
+		
+					<div class="tile_right" style="margin-bottom: 0px;">
 					
-							<div class="tile_icon">
-									<a href="index.html" target="_blank" class="link">
-											<i class="icon-home"></br>Home</i>
-									</a>	
-							</div>
-							
-							<div class="back_to_main">
+					<div class="back_to_main" style="margin-top:0px;">
 									<a href="main_menu.html" target="_blank" class="link">
 											<i class="icon-undo">Main menu</i>
 									</a>
-							</div>
+					</div>
+							
+						<div class="tile_date">
+								<div id="date"></div>
+										<script>
+												var today = new Date();
+												var day = today.getDate();
+												if(day<10) day = "0"+day;						
+												var month = today.getMonth();
+												if(month<10) month = "0"+month;					
+												var year = today.getFullYear();							
+												document.getElementById("date").innerHTML= "Today is: "+day+"-"+month+"-"+year;
+										</script>
+								</div>		
+					
+							<form>	
+									<input type="submit" value="Add income">	
+							</form>
 							
 					</div>
-						
+																			
 					<div style="clear:both;"></div>
-											
+
 </body>
 
 <footer>
@@ -74,7 +91,8 @@
 					<div class="long_tile">	
 							<div id="rights">
 									2020 &copy; Personal Finances  
-									</br> by Benedykt Chałubiński-Gonerko	
+									</br> 
+									by Benedykt Chałubiński-Gonerko	
 							</div>
 					</div>
 	
