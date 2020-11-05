@@ -11,6 +11,18 @@ body
 	text-align: center;
 }	
 
+.block
+{
+  display: block;
+  width: 100%;
+  border: none;
+  padding: none;
+}
+
+.tile
+{
+  width: 195px !important;
+}
 /*
 .tile_icon
 {	
@@ -39,10 +51,6 @@ a.link:hover
 }
 
 /*
-
-
-
-
 
 #balance
 {
@@ -218,17 +226,6 @@ h1
 	cursor: default;
 }
 
-#email
-{
-	height: 20px;
-	cursor: default;
-}
-
-#rights
-{
-    	height: 30px;
-		cursor: default;
-}
 
 input[type=text],
 input[type=password]
