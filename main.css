@@ -37,6 +37,10 @@ a.link:hover
   cursor: default;
 }
 
+.border_ {
+    border-width:10px !important;
+}
+
 /*
 
 #balance
