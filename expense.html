@@ -2,62 +2,65 @@
 <html lang="en">
 <head>
 
-	<meta charset="utf-8">
-	<title>Personal Finances</title>
-	<meta name="description" content="Personal Finanes">
-	<meta name="keywords" content="finances, personal finances, budget, personal budget, income, outcome">
-	<meta name="author" content="BCG">
-	
-	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
-	
-	<link rel="stylesheet" href="main.css">
-	
-	<link href "https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
-	
-	<!--[if lt IE 9]>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-	<![endif]-->
-	
+		 <meta charset="utf-8">
+		 <title>Personal Finances</title>
+		 <meta name="description" content="Personal Finanes">
+		 <meta name="keywords" content="finances, personal finances, budget, personal budget, income, outcome">
+		 <meta name="author" content="BCG">
+		
+		 <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+		
+		 <link rel="stylesheet" href="main.css" type="text/css" />
+		
+		 <link href "https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
+		 <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+		
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
 </head>
 
-<body>
+<body class="bg-dark my text-light text-center">
 
-			<div id="container"style="margin-top:120px;">
+			 <div class="container">		
 			
-					<div class="header">
-							Personal Finances
-					</div>	
-				
-					<div class="transaction" style="background-color: #FF3333;"> 
-							Add new expense:
-					</div>
-					
-					<div class="long_tile">	
-							<div id="additional"> <i> Fill in all below information </i> </div>	
-					</div>		
-					
-					<div class="tile_left" style="margin-bottom: 0px;">
-							<form>	
-									<input type="text" placeholder="Expense name">
-									</br>
-									<input type="text" placeholder="Expense date">
-									</br>
-									<input type="text" placeholder="Expense value">
-							</form>
-					</div>
-		
-					<div class="tile_right" style="margin-bottom: 0px;">
-					
-					<div class="back_to_main" style="margin-top:0px;">
-									<a href="main_menu.html" target="_blank" class="link">
-											<i class="icon-undo">Main menu</i>
-									</a>
-					</div>
+				 <div class="row justify-content-center">		
+					 <h1 class="col-sm-5 bg-primary border border-light rounded pointer-d">
+						 Personal Finances
+					 </h1>
+				 </div>		
+				 
+				 <div class="row justify-content-center">
+					 <div class="col-sm-5">	
+						 <div class="row justify-content-center">
+						 
+							 <div class="w-100 bg-success border border-light rounded pointer-d" style="font-size: 20px;">	
+								 Add new expense
+							 </div>
+							 
+							  <div class="w-100 bg-primary border border-light rounded pointer-d mt-2 mb-2" style="font-size: 15px;">	
+								  <i> Fill in all below information </i>
+							 </div>
+						 
+							<div class="w-50">
+								 <div class="mr-md-1">
+									 <input type="text" class="form-control mb-2" id="Expense name" placeholder="Expense name">
+									 <input type="text" class="form-control mb-2" id="Expense date" placeholder="Expense date">
+									 <input type="text" class="form-control mb-2" id="Expense value" placeholder="Expense value">
+									
+								 </div>
+							 </div>	
 							
-						<div class="tile_date">
-								<div id="date"></div>
-										<script>
+							 <div class="w-50">
+							 
+								 <div class="bg-secondary border border-light rounded ml-md-1 pt-2 pr-1" style="height: 44px;">
+									 <a href="main_menu.html" target="_blank" class="link">
+								             <i class="icon-undo">Main menu</i>
+							         </a>
+								 </div>
+								 
+								 <div class="bg-success border border-light rounded ml-md-1 pt-2 pr-1 mt-2" style="height: 44px;">
+									<div id="date"></div>
+									 <script>
 												var today = new Date();
 												var day = today.getDate();
 												if(day<10) day = "0"+day;						
@@ -65,39 +68,42 @@
 												if(month<10) month = "0"+month;					
 												var year = today.getFullYear();							
 												document.getElementById("date").innerHTML= "Today is: "+day+"-"+month+"-"+year;
-										</script>
-						</div>		
-					
-							<form>	
-									<input type="submit" value="Add expense">	
-							</form>
-							
-					</div>
-																			
-					<div style="clear:both;"></div>
+									 </script>
+								 </div>
+								 
+								 <div class="w-100 ml-md-1 pr-1 mt-2" style="height: 44px;">
+									 <button type="submit" class="btn btn-info">Add Expense</button>
+								 </div>
+								 
+							 </div>
+							 
+						 </div>
+					 </div>	
+				 </div>	
 
 </body>
 
 <footer>
-
-					<div class="long_tile">	
-							<div id="email"> Contact me via mail:  
-									<a href="mailto:ben.chalubinski@gmail.com target="_blank" class="link">
-											<i class="icon-mail"></i> 
-									</a>			
-							</div>
-					</div>
-
-					<div class="long_tile">	
-							<div id="rights">
-									2020 &copy; Personal Finances  
-									</br> 
-									by Benedykt Chałubiński-Gonerko	
-							</div>
-					</div>
-	
-			</div>		
+				
+				 <div class="row justify-content-center">
+					 <div class="col-sm-5 bg-primary border border-light rounded pointer-d " style="font-size: 15px;">	
+							 <div id="email"> 
+							     Contact me via mail: 
+									 <a href="mailto:ben.chalubinski@gmail.com target="_blank" class="link">
+											 <i class="icon-mail"></i> 
+									 </a>			
+							 </div>
+					 </div>
+				 </div>
+					
+				 <div class="row justify-content-center">
+					 <div class="col-sm-5 bg-primary border border-light rounded mt-2 pointer-d" style="font-size: 10px;">	
+						 2020 &copy; Personal Finances <br> by Benedykt Chałubiński-Gonerko
+					 </div>
+				 </div>
+				
+			 </div>
 		
-</footer>  
+</footer>   
 		
 </html>
