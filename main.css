@@ -47,7 +47,9 @@ h5
 	font-size: 15px !important;
 }
 
-
+.text-right {
+    text-align: right !important;
+}
 /*
 
 #balance
